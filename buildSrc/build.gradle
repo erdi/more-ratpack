@@ -1,0 +1,14 @@
+plugins {
+    id "idea"
+    id "groovy"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    gradleApi()
+    localGroovy()
+    compile 'org.pegdown:pegdown:1.6.0'
+}

@@ -1,0 +1,13 @@
+plugins {
+    id "idea"
+}
+
+wrapper {
+    gradleVersion = "2.11"
+}
+
+idea {
+    project {
+        vcs = "Git"
+    }
+}
