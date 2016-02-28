@@ -1,0 +1,18 @@
+plugins {
+    id "idea"
+    id "io.ratpack.ratpack-groovy" version "1.2.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile ratpack.dependency("groovy")
+
+    compile ratpack.dependency("h2")
+    compile "org.jooq:jooq:3.7.1"
+    compile "org.liquibase:liquibase-core:3.4.2"
+
+    testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
+}

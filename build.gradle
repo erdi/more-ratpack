@@ -9,5 +9,6 @@ wrapper {
 idea {
     project {
         vcs = "Git"
+        wildcards += "ratpack.groovy"
     }
 }

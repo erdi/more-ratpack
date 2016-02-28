@@ -1,1 +1,1 @@
-include "01-reloading", "02-test-http-client"
+include "01-reloading", "02-test-http-client", "03-services"
