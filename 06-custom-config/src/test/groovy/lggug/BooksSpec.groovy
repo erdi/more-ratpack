@@ -1,10 +1,7 @@
 package lggug
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import ratpack.groovy.test.GroovyRatpackMainApplicationUnderTest
 import ratpack.groovy.test.embed.GroovyEmbeddedApp
-import ratpack.impose.ImpositionsSpec
-import ratpack.impose.ServerConfigImposition
 import ratpack.test.CloseableApplicationUnderTest
 import ratpack.test.http.TestHttpClient
 import spock.lang.AutoCleanup
