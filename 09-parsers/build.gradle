@@ -1,0 +1,13 @@
+plugins {
+    id "idea"
+    id "io.ratpack.ratpack-groovy" version "1.2.0"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "org.spockframework:spock-core:1.0-groovy-2.4"
+    testCompile ratpack.dependency("remote-test")
+}

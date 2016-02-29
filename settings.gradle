@@ -1,2 +1,2 @@
 include "01-reloading", "02-test-http-client", "03-services", "04-embedded-application", "05-configuration",
-    "06-custom-config", "07-remote-control", "08-renderers"
+    "06-custom-config", "07-remote-control", "08-renderers", "09-parsers"
