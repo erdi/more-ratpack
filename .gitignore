@@ -4,3 +4,4 @@
 *.iws
 *.iml
 .DS_Store
+out
